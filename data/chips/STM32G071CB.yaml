@@ -647,6 +647,7 @@ cores:
         GLOBAL: RCC
     RTC:
       address: 0x40002800
+      block: rtc_g0/RTC
       interrupts: {}
     SPI1:
       address: 0x40013000
