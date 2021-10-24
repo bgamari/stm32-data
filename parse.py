@@ -400,6 +400,7 @@ perimap = [
     ('.*:STM32F4_flash_v1_0', 'flash_f4/FLASH'),
     ('.*:STM32L4_flash_v1_0', 'flash_l4/FLASH'),
     ('.*TIM\d.*:gptimer.*', 'timer_v1/TIM_GP16'),
+    ('.*LPTIM\d.*:G0xx_lptimer1_v1_4', 'lptim_g0/LPTIM'),
     ('.*ETH:ethermac110_v3_0', 'eth_v2/ETH'),
 
     ('.*:STM32F0_dbgmcu_v1_0', 'dbgmcu_f0/DBGMCU'),
